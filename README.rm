@@ -1,0 +1,4 @@
+For the TCP server, use command "telnet 127.0.0.1 8080" to create a connection. Then, you can just type in whatever
+you want to send to the server, hit enter to send.
+
+For the UDP server, use the command "echo "hi" | nc -w1 -u 127.0.0.1 8081". That will send whatever you echo to the server. Server is stateless (you don't need a connection.)
